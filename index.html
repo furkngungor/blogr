@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Furkan Güngör | [Blogr]</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="./styles/style.css">
+  
+</head>
+<body>
+
+  <header class="Header">
+    <nav class="Navbar">
+      <img src="./images/logo.svg" alt="blogr-logo">
+      <button id="hamburger-button">
+        <img src="./images/icon-hamburger.svg" alt="hamburger-icon">
+      </button>
+      <button id="close-button">
+        <img src="./images/icon-close.svg" alt="close-icon">
+      </button>
+      <div class="navbar-nav">
+        <div class="dropdown-menu">
+          <a href="#" onclick="showDropDown(0)" class="nav-header">Product</a> 
+          <div class="inner-menu">
+            <a href="#">Overview</a>
+            <a href="#">Pricing</a>
+            <a href="#">Marketplace</a>
+            <a href="#">Features</a>
+            <a href="#">Integrations</a>
+          </div>         
+        </div>
+        <div class="dropdown-menu">
+          <a href="#" onclick="showDropDown(1)" class="nav-header">Company</a>
+          <div class="inner-menu">
+            <a href="#">About</a>
+            <a href="#">Team</a>
+            <a href="#">Blog</a>
+            <a href="#">Careers</a>
+          </div>          
+        </div>
+        <div class="dropdown-menu">
+          <a href="#" onclick="showDropDown(2)" class="nav-header">Connect</a>
+          <div class="inner-menu">
+            <a href="#">Contact</a>
+            <a href="#">Newslatter</a>
+            <a href="#">LinkedIn</a>
+          </div>
+        </div>
+        <hr>
+        <a href="#" class="login">Login</a>
+        <a href="#" class="signup">Sign Up</a>
+      </div>
+    </nav>
+    <section class="Introduction">
+      <h1>A modern publishing platform</h1>
+      <p>Grow your audience and build your online brand</p>
+      <a href="#" class="start">Start for Free</a>
+      <a href="#" class="learn">Learn More</a>
+    </section>
+  </header>
+
+  <article class="Article">
+    <h1>Designed for the future</h1>
+    <div class="article-image"></div>
+    <div class="article-info">
+      <h1>Introducing an extensible editor</h1>
+      <p>
+        Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+        The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+        videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+        change the looks of a blog.
+      </p>
+
+      <h1>Robust content management</h1>
+      <p>
+        Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+        by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+      </p>
+    </div>
+  </article>
+
+  <section class="Art">
+    <img src="./images/illustration-phones.svg" alt="" srcset="">
+    <h1>State of the Art Infrastructure</h1>
+    <p> With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+      This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+  </section>
+
+  <article class="Article">
+    <div class="article-image2"></div>
+    <div class="article-info">
+      <h1>Free, open, simple</h1>
+      <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+        features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+        and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+  
+      <h1>Powerful tooling</h1>
+      <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+        capable of producing even the most complicated sites.</p>
+    </div>
+  </article>
+
+  <footer class="Footer">
+    <img src="./images/logo.svg" alt="blogr-logo">
+
+    <div class="inner-nav">
+      <a href="#">Product</a>
+      <a href="#">Overview</a>
+      <a href="#">Pricing</a>
+      <a href="#">Marketplace</a>
+      <a href="#">Features</a>
+      <a href="#">Integrations</a>
+    </div>
+    
+    <div class="inner-nav">
+      <a href="#">Company</a>
+      <a href="#">About</a>
+      <a href="#">Team</a>
+      <a href="#">Blog</a>
+      <a href="#">Careers</a>
+    </div>
+    
+    <div class="inner-nav">
+      <a href="#">Connect</a>
+      <a href="#">Contact</a>
+      <a href="#">Newsletter</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
